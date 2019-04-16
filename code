@@ -1,0 +1,9 @@
+#Open command line use Administrator
+#cd to c:\
+#Set up how size you need for default 1024 maxsize
+#When it done,use C:\Windows\System32>tracerpt.exe to open it.
+#You can do this command easy for research: tracerpt.exe abc.etl -o abc.xml -of XML.
+#Author:tony
+#Date:Apr 15,2019
+
+Netsh trace start scenario = NetConnection capture = yes report = yes persistent = no maxsize = 1024 correlation = yes traceFile = C：\NetTrace.etl
