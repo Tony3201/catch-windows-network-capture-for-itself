@@ -8,6 +8,7 @@
 #When it done,use C:\Windows\System32>tracerpt.exe to open it.
 #You can do this command easy for research: tracerpt.exe abc.etl -o abc.xml -of XML.
 
-Netsh trace start scenario = NetConnection capture = yes report = yes persistent = no maxsize = 1024 correlation = yes traceFile = C：\NetTrace.etl
+Netsh trace start scenario = NetConnection capture = yes report = yes persistent = no maxsize = 1024 correlation = yes traceFile 
+= C：\NetTrace.etl
 
 
