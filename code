@@ -12,3 +12,13 @@ Netsh trace start scenario = NetConnection capture = yes report = yes persistent
 = C:\NetTrace.etl
 
 
+For Example:
+
+Tracking configuration:
+-------------------------------------------------- -----------------
+Status: running
+Trace file: C: \ NetTrace.etl
+Additional: Close
+Loop: enabled
+Maximum size: 1024 MB
+Report: enabled
